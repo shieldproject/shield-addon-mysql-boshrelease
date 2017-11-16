@@ -1,0 +1,15 @@
+---
+name: shield-addon-xtrabackup-2.4
+files:
+  - mariadb/mariadb-10.2.10.tar.gz
+  - shared/boost_1_59_0.tar.gz
+  - xtrabackup/autoconf-2.65.tar.gz
+  - xtrabackup/autoconf-2.65.tar.gz
+  - xtrabackup/automake-1.14.1.tar.gz
+  - xtrabackup/libaio_0.3.110.orig.tar.gz
+  - xtrabackup/libdbd-mysql-perl_4.025.orig.tar.gz
+  - xtrabackup/libdbi-perl_1.630.orig.tar.gz
+  - xtrabackup/libev-4.23.tar.gz
+  - xtrabackup/libtool-2.4.2.tar.gz
+  - xtrabackup/percona-xtrabackup-2.4.5.tar.gz
+  - xtrabackup/socat-1.7.2.4.tar.gz

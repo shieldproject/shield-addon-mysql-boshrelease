@@ -1,0 +1,56 @@
+mariadb/mariadb-10.0.33.tar.gz:
+  size: 69211872
+  object_id: 3f5b43e7-2b6e-4aca-6c59-4c55dd1694b4
+  sha: 10f39ec8b84ab9b9083b96e024e923c5f1614c01
+mariadb/mariadb-10.1.29.tar.gz:
+  size: 67885370
+  object_id: 401504ad-a68d-45e3-79cd-5429eac10900
+  sha: 0be98afd6ba210644e17d9163bc28b71a6e89969
+mariadb/mariadb-10.2.10.tar.gz:
+  size: 72388999
+  object_id: f248ca02-a240-40f9-5ab2-44f39ef8b566
+  sha: 14a7d6b5c77de5235b60ffa13bf80a1dd2dda49c
+mysql/mysql-5.7.20.tar.gz:
+  size: 51725558
+  object_id: 0d413e1c-40c9-48ef-7aef-ab7925116c75
+  sha: 567061d786d89fe65cb6fb70d0e70e36278e9ef2
+shared/boost_1_59_0.tar.gz:
+  size: 83709983
+  object_id: cc0fdf65-9ad1-4d4a-684a-953c07abf794
+  sha: 5123209db194d66d69a9cfa5af8ff473d5941d97
+xtrabackup/autoconf-2.65.tar.gz:
+  size: 1738880
+  object_id: 63e59b72-0a5b-4b8f-504b-72171f73fcb3
+  sha: ae9e1ab046822007f25c88e1d8f2166e065da8c2
+xtrabackup/automake-1.14.1.tar.gz:
+  size: 2240681
+  object_id: ce579108-d040-4bb5-544c-9bce23e00ba9
+  sha: 0bb1714b78d70cab9907d2013082978a28f48a46
+xtrabackup/libaio_0.3.110.orig.tar.gz:
+  size: 42270
+  object_id: 5267e68b-5cc6-4e72-6b66-06c7ba8b2fc9
+  sha: f8f6ed15f22e528f6f415939b07854539e3360e4
+xtrabackup/libdbd-mysql-perl_4.025.orig.tar.gz:
+  size: 135538
+  object_id: ca7512c1-eda3-4ff1-77c9-dfc65f595f6c
+  sha: 7c148d347988785239973835f8b5a8b78677ae47
+xtrabackup/libdbi-perl_1.630.orig.tar.gz:
+  size: 588554
+  object_id: 9ab05c10-0656-4b79-4b4c-350bb404d2a6
+  sha: 8e8ca6484a3e0c7f4e268e46101faed576e072fc
+xtrabackup/libev-4.23.tar.gz:
+  size: 524184
+  object_id: 1b3fc7fb-980f-41f9-606d-edff9d1a54fa
+  sha: 5b4a0dd7566e72ce425ea647d22d6592dfaf5b8e
+xtrabackup/libtool-2.4.2.tar.gz:
+  size: 2632347
+  object_id: 22680101-1484-4100-76f9-46e3a1434a99
+  sha: 22b71a8b5ce3ad86e1094e7285981cae10e6ff88
+xtrabackup/percona-xtrabackup-2.4.5.tar.gz:
+  size: 54104240
+  object_id: 6c546b44-0c1e-41c3-77f1-cdd26ff48427
+  sha: 8fbd4a7f454cdd9dec0dc76d7b3e07ec215e0dd7
+xtrabackup/socat-1.7.2.4.tar.gz:
+  size: 583762
+  object_id: a2abe640-d5dc-4c28-44f5-c5697ebee634
+  sha: c33904b83295accef2aaff8adf7eedd3310f9777

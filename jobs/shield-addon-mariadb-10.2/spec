@@ -1,0 +1,4 @@
+---
+name: shield-addon-mariadb-10.2
+packages:
+  - shield-addon-mariadb-10.2

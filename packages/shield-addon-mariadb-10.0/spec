@@ -1,0 +1,4 @@
+---
+name: shield-addon-mariadb-10.0
+files:
+  - mariadb/mariadb-10.0.33.tar.gz

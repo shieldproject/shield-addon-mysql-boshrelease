@@ -1,0 +1,4 @@
+---
+name: shield-addon-mysql-5.7
+packages:
+  - shield-addon-mysql-5.7

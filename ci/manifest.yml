@@ -1,0 +1,71 @@
+name: shield-addon-mysql-ci
+
+instance_groups:
+  - name: all
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs:
+      - { release: shield-addon-mysql, name: shield-addon-mariadb-10.0 }
+      - { release: shield-addon-mysql, name: shield-addon-mariadb-10.1 }
+      - { release: shield-addon-mysql, name: shield-addon-mariadb-10.2 }
+      - { release: shield-addon-mysql, name: shield-addon-mysql-5.7 }
+      - { release: shield-addon-mysql, name: shield-addon-xtrabackup-2.4 }
+
+  - name: mariadb-10.0
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{ release: shield-addon-mysql, name: shield-addon-mariadb-10.0 }]
+
+  - name: mariadb-10.1
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{ release: shield-addon-mysql, name: shield-addon-mariadb-10.1 }]
+
+  - name: mariadb-10.2
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{ release: shield-addon-mysql, name: shield-addon-mariadb-10.2 }]
+
+  - name: mysql-5.7
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{ release: shield-addon-mysql, name: shield-addon-mysql-5.7 }]
+
+  - name: xtrabackup-2.4
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{ release: shield-addon-mysql, name: shield-addon-xtrabackup-2.4 }]
+
+update:
+  canaries: 0
+  max_in_flight: 1
+  serial: true
+  canary_watch_time: 1000-120000
+  update_watch_time: 1000-120000
+
+stemcells:
+  - alias: default
+    os: ubuntu-trusty
+    version: latest
+
+releases:
+  - name: shield-addon-mysql
+    version: latest
