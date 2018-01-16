@@ -44,3 +44,4 @@ instance_groups:
 That's really all there is to it.
 
 [bug]: https://github.com/shieldproject/shield-addon-mysql-boshrelease/issues
+[1]:   https://github.com/starkandwayne/shield-boshrelease
