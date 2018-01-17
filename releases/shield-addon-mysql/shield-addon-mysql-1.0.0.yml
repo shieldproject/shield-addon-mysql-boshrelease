@@ -1,0 +1,55 @@
+name: shield-addon-mysql
+version: 1.0.0
+commit_hash: 6e4d5df
+uncommitted_changes: false
+jobs:
+- name: shield-addon-mariadb-10.0
+  version: 737dae34bb68f5212d8b937543bf72e1619766fd
+  fingerprint: 737dae34bb68f5212d8b937543bf72e1619766fd
+  sha1: b560faefc5c140ff46f5ad8d3ac6a23053a7061c
+- name: shield-addon-mariadb-10.1
+  version: bdf513da92f076396916b653623fd9512da47e94
+  fingerprint: bdf513da92f076396916b653623fd9512da47e94
+  sha1: db66529865f9d095217520f67ce8c28279599801
+- name: shield-addon-mariadb-10.2
+  version: 8aa72da762845f0bb678b35859b38d897cc3e792
+  fingerprint: 8aa72da762845f0bb678b35859b38d897cc3e792
+  sha1: 52719b2568c9671ca19274aa00861cdce146534c
+- name: shield-addon-mysql-5.7
+  version: ccefa2fa231155e766c0c215b7e642c91509e8ba
+  fingerprint: ccefa2fa231155e766c0c215b7e642c91509e8ba
+  sha1: a6af8bf9672335b11fecf35fd6b1e65c537a4ceb
+- name: shield-addon-xtrabackup-2.4
+  version: b42a4f86b82ba47b69eb5cd749e1de63045a4a46
+  fingerprint: b42a4f86b82ba47b69eb5cd749e1de63045a4a46
+  sha1: 13f044f1da0ec13d72a958b9e4670fb3001768a6
+packages:
+- name: shield-addon-mariadb-10.0
+  version: 37bc33568f9bb95bf8f5da8a0e226f7bc26cb601
+  fingerprint: 37bc33568f9bb95bf8f5da8a0e226f7bc26cb601
+  sha1: b9a5468171343e2ee57632b171b3b1b4e9ccd3b6
+  dependencies: []
+- name: shield-addon-mariadb-10.1
+  version: 9f25b5fe2374f61732bd3373ed03836afefff24d
+  fingerprint: 9f25b5fe2374f61732bd3373ed03836afefff24d
+  sha1: 8123a6f04bae9e73a8db3b515a80d8c0467b2722
+  dependencies: []
+- name: shield-addon-mariadb-10.2
+  version: d2ac76afed6ea8a550b66c718027cd0e95ba3b03
+  fingerprint: d2ac76afed6ea8a550b66c718027cd0e95ba3b03
+  sha1: 52fd969aaf7219be8545ba552ae0dea16f9da1ad
+  dependencies: []
+- name: shield-addon-mysql-5.7
+  version: 8cef24c57960e1557e92f93514fdd98cb123960b
+  fingerprint: 8cef24c57960e1557e92f93514fdd98cb123960b
+  sha1: 50436b929cce91a0a7e47e8a76fd6a200da48cad
+  dependencies: []
+- name: shield-addon-xtrabackup-2.4
+  version: fae27cf7b984b705ce49a6094c497b86f813d95b
+  fingerprint: fae27cf7b984b705ce49a6094c497b86f813d95b
+  sha1: e138638b1b0880b4678cb2c4bf4e68912586b21a
+  dependencies: []
+license:
+  version: fc24a259da4ed145bfa70db6bc689b7dfb91673c
+  fingerprint: fc24a259da4ed145bfa70db6bc689b7dfb91673c
+  sha1: 8622ee9a346cdc9dbf6e9c63bce23c0cc1fcb652
