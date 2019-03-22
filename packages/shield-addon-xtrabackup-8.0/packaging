@@ -3,8 +3,8 @@ set -eux
 export PATH=$PATH:${BOSH_INSTALL_TARGET}/bin
 CPUS=$(grep -c ^processor /proc/cpuinfo)
 
-tar -xzf mariadb/mariadb-10.2.22.tar.gz
-pushd mariadb-10.2.22
+tar -xzf mariadb/mariadb-10.3.13.tar.gz
+pushd mariadb-10.3.13
   cmake -DCMAKE_INSTALL_PREFIX:PATH=${BOSH_INSTALL_TARGET}
   make -j$CPUS && make install
 popd
@@ -59,8 +59,8 @@ popd
 tar -xzf shared/boost_1_59_0.tar.gz
 mv boost_1_59_0/boost $BOSH_INSTALL_TARGET
 
-tar -xzf xtrabackup/percona-xtrabackup-2.4.5.tar.gz
-pushd percona-xtrabackup-2.4.5
+tar -xzf xtrabackup/percona-xtrabackup-8.0.5.tar.gz
+pushd percona-xtrabackup-8.0.5
   cmake -DBUILD_CONFIG=xtrabackup_release \
         -DCMAKE_INSTALL_PREFIX=${BOSH_INSTALL_TARGET} \
         -DWITH_MAN_PAGES=OFF \

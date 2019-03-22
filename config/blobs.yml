@@ -1,19 +1,31 @@
-mariadb/mariadb-10.0.33.tar.gz:
-  size: 69211872
-  object_id: 3f5b43e7-2b6e-4aca-6c59-4c55dd1694b4
-  sha: 10f39ec8b84ab9b9083b96e024e923c5f1614c01
-mariadb/mariadb-10.1.29.tar.gz:
-  size: 67885370
-  object_id: 401504ad-a68d-45e3-79cd-5429eac10900
-  sha: 0be98afd6ba210644e17d9163bc28b71a6e89969
-mariadb/mariadb-10.2.10.tar.gz:
-  size: 72388999
-  object_id: f248ca02-a240-40f9-5ab2-44f39ef8b566
-  sha: 14a7d6b5c77de5235b60ffa13bf80a1dd2dda49c
+mariadb/mariadb-10.0.38.tar.gz:
+  size: 64755921
+  object_id: 7b441a58-4de8-461d-43ef-f0b35b7af3ce
+  sha: 616c8d0033d6a2f989637f831bc3308c112d08e1
+mariadb/mariadb-10.1.38.tar.gz:
+  size: 63535685
+  object_id: 6fe1ec3e-3d1c-4e2e-6bf9-4ad9cd0ab678
+  sha: 1474b3a9ad402c848cff6ef6a79856dc405806b1
+mariadb/mariadb-10.2.22.tar.gz:
+  size: 71907765
+  object_id: 3517d9b1-c014-4d02-6611-d969bdff85ac
+  sha: e44e661b995d01f05abeae1eb3fa480506b910d7
+mariadb/mariadb-10.3.13.tar.gz:
+  size: 70745600
+  object_id: f7a13236-5bb5-425c-52c0-ad80303e64e8
+  sha: 08467885412184e99b835732913d445fd2c4b1b3
 mysql/mysql-5.7.20.tar.gz:
   size: 51725558
   object_id: 0d413e1c-40c9-48ef-7aef-ab7925116c75
   sha: 567061d786d89fe65cb6fb70d0e70e36278e9ef2
+mysql/mysql-5.7.25.tar.gz:
+  size: 52063298
+  object_id: 9c95bb40-0d9b-4794-6e13-7f8799a4b7a3
+  sha: 78e0146050afaac9140fbfa9e49d802d02adf5b5
+mysql/mysql-8.0.15.tar.gz:
+  size: 118026335
+  object_id: 11cd0845-75c8-4ad6-7fc3-a00ee89259a1
+  sha: 8a10af30d738682f40001c6532a70885209843aa
 shared/boost_1_59_0.tar.gz:
   size: 83709983
   object_id: cc0fdf65-9ad1-4d4a-684a-953c07abf794
@@ -50,6 +62,10 @@ xtrabackup/percona-xtrabackup-2.4.5.tar.gz:
   size: 54104240
   object_id: 6c546b44-0c1e-41c3-77f1-cdd26ff48427
   sha: 8fbd4a7f454cdd9dec0dc76d7b3e07ec215e0dd7
+xtrabackup/percona-xtrabackup-8.0.5.tar.gz:
+  size: 119581713
+  object_id: 1ecf4b86-e861-4a16-6b22-71221139bb39
+  sha: 2faec40da56e8670f9a18146e092d555da298cf8
 xtrabackup/socat-1.7.2.4.tar.gz:
   size: 583762
   object_id: a2abe640-d5dc-4c28-44f5-c5697ebee634

@@ -5,8 +5,8 @@ CPUS=$(grep -c ^processor /proc/cpuinfo)
 tar -xzf shared/boost_1_59_0.tar.gz
 mv boost_1_59_0/boost $BOSH_INSTALL_TARGET
 
-tar -xzf mysql/mysql-5.7.25.tar.gz
-cd mysql-5.7.25
+tar -xzf mysql/mysql-8.0.15.tar.gz
+cd mysql-8.0.15
 cmake -DCMAKE_INSTALL_PREFIX:PATH=${BOSH_INSTALL_TARGET} \
       -DWITH_MAN_PAGES=OFF \
       -DWITH_BOOST=${BOSH_INSTALL_TARGET}

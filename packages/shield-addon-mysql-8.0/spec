@@ -1,0 +1,5 @@
+---
+name: shield-addon-mysql-8.0
+files:
+  - shared/boost_1_59_0.tar.gz
+  - mysql/mysql-8.0.15.tar.gz

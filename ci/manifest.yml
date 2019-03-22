@@ -11,7 +11,9 @@ instance_groups:
       - { release: shield-addon-mysql, name: shield-addon-mariadb-10.0 }
       - { release: shield-addon-mysql, name: shield-addon-mariadb-10.1 }
       - { release: shield-addon-mysql, name: shield-addon-mariadb-10.2 }
+      - { release: shield-addon-mysql, name: shield-addon-mariadb-10.3 }
       - { release: shield-addon-mysql, name: shield-addon-mysql-5.7 }
+      - { release: shield-addon-mysql, name: shield-addon-mysql-8.0 }
       - { release: shield-addon-mysql, name: shield-addon-xtrabackup-2.4 }
 
   - name: mariadb-10.0
@@ -38,6 +40,14 @@ instance_groups:
     networks: [{name: default}]
     jobs: [{ release: shield-addon-mysql, name: shield-addon-mariadb-10.2 }]
 
+  - name: mariadb-10.3
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{ release: shield-addon-mysql, name: shield-addon-mariadb-10.3 }]
+
   - name: mysql-5.7
     instances: 1
     azs: [z1]
@@ -45,6 +55,14 @@ instance_groups:
     stemcell: default
     networks: [{name: default}]
     jobs: [{ release: shield-addon-mysql, name: shield-addon-mysql-5.7 }]
+
+  - name: mysql-8.0
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{ release: shield-addon-mysql, name: shield-addon-mysql-8.0 }]
 
   - name: xtrabackup-2.4
     instances: 1

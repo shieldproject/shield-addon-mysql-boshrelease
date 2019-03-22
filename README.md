@@ -9,9 +9,10 @@ utilities for backup and restore: mysql, and mysqldump.
 The following versions are currently available:
 
  - **MariaDB** - Open Source MySQL
-   - **10.0.33** via `shield-addon-mariadb-10.0`
-   - **10.1.29** via `shield-addon-mariadb-10.1`
-   - **10.2.10** via `shield-addon-mariadb-10.2`
+   - **10.0.38** via `shield-addon-mariadb-10.0`
+   - **10.1.38** via `shield-addon-mariadb-10.1`
+   - **10.2.22** via `shield-addon-mariadb-10.2`
+   - **10.3.13** via `shield-addon-mariadb-10.3`
  - **MySQL** - Oracle MySQL
    - **5.7.20** via `shield-addon-mysql-5.7`
  - **Percona XtraBackup**
