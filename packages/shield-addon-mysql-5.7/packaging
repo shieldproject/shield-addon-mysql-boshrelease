@@ -9,5 +9,6 @@ tar -xzf mysql/mysql-5.7.25.tar.gz
 cd mysql-5.7.25
 cmake -DCMAKE_INSTALL_PREFIX:PATH=${BOSH_INSTALL_TARGET} \
       -DWITH_MAN_PAGES=OFF \
+      -DFORCE_INSOURCE_BUILD=1 \
       -DWITH_BOOST=${BOSH_INSTALL_TARGET}
 make -j$CPUS && make install
