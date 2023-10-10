@@ -1,8 +1,0 @@
-#!/bin/sh
-set -eux
-CPUS=$(grep -c ^processor /proc/cpuinfo)
-
-tar -xzf mariadb/mariadb-10.3.13.tar.gz
-cd mariadb-10.3.13
-cmake -DCMAKE_INSTALL_PREFIX:PATH=${BOSH_INSTALL_TARGET}
-make -j$CPUS && make install

@@ -8,15 +8,9 @@ utilities for backup and restore: mysql, and mysqldump.
 
 The following versions are currently available:
 
- - **MariaDB** - Open Source MySQL
-   - **10.0.38** via `shield-addon-mariadb-10.0`
-   - **10.1.38** via `shield-addon-mariadb-10.1`
-   - **10.2.22** via `shield-addon-mariadb-10.2`
-   - **10.3.13** via `shield-addon-mariadb-10.3`
  - **MySQL** - Oracle MySQL
-   - **5.7.20** via `shield-addon-mysql-5.7`
- - **Percona XtraBackup**
-   - **2.4.5** via `shield-addon-xtrabackup-2.4`
+   - **5.7.43** via `shield-addon-mysql-5.7` for Bionic
+   - **8.0.34** via `shield-addon-mysql-8.0` for Bionic
 
 Need a version we don't (yet) support?  Open a [Github Issue][bug]
 asking that we package it up.  If possible, supply which package
@@ -38,7 +32,7 @@ instance_groups:
   - name: whatever
     jobs:
       # ...
-      - name:    shield-addon-mariadb-10.2
+      - name:    shield-addon-mysql-8.0
         release: shield-addon-mysql
 ```
 

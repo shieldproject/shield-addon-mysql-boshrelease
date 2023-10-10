@@ -1,31 +1,11 @@
-mariadb/mariadb-10.0.38.tar.gz:
-  size: 64755921
-  object_id: 7b441a58-4de8-461d-43ef-f0b35b7af3ce
-  sha: 616c8d0033d6a2f989637f831bc3308c112d08e1
-mariadb/mariadb-10.1.38.tar.gz:
-  size: 63535685
-  object_id: 6fe1ec3e-3d1c-4e2e-6bf9-4ad9cd0ab678
-  sha: 1474b3a9ad402c848cff6ef6a79856dc405806b1
-mariadb/mariadb-10.2.22.tar.gz:
-  size: 71907765
-  object_id: 3517d9b1-c014-4d02-6611-d969bdff85ac
-  sha: e44e661b995d01f05abeae1eb3fa480506b910d7
-mariadb/mariadb-10.3.13.tar.gz:
-  size: 70745600
-  object_id: f7a13236-5bb5-425c-52c0-ad80303e64e8
-  sha: 08467885412184e99b835732913d445fd2c4b1b3
-mysql/mysql-5.7.20.tar.gz:
-  size: 51725558
-  object_id: 0d413e1c-40c9-48ef-7aef-ab7925116c75
-  sha: 567061d786d89fe65cb6fb70d0e70e36278e9ef2
-mysql/mysql-5.7.25.tar.gz:
-  size: 52063298
-  object_id: 9c95bb40-0d9b-4794-6e13-7f8799a4b7a3
-  sha: 78e0146050afaac9140fbfa9e49d802d02adf5b5
-mysql/mysql-8.0.15.tar.gz:
-  size: 118026335
-  object_id: 11cd0845-75c8-4ad6-7fc3-a00ee89259a1
-  sha: 8a10af30d738682f40001c6532a70885209843aa
+mysql/mysql-5.7.43-linux-glibc2.12-x86_64.tar.gz:
+  size: 694611572
+  object_id: 0e8d0365-271a-4016-4af2-65231111e1de
+  sha: sha256:8a34efc623d699b91e193e850cc8d0baee455c36fd4c63a2c875899d634e51ec
+mysql/mysql-8.0.34-linux-glibc2.12-x86_64.tar.xz:
+  size: 617598500
+  object_id: 897894e6-3470-421a-4812-9b3d340e45b9
+  sha: sha256:134b4f984c7acfd3b5d03839bfd8524f955738ea8ca35b9ffcdf6c8f3ad4ce6c
 shared/boost_1_59_0.tar.gz:
   size: 83709983
   object_id: cc0fdf65-9ad1-4d4a-684a-953c07abf794
