@@ -1,6 +1,8 @@
 ---
 name: shield-addon-mysql-8.0
 files:
-  - mysql/mysql-8.0.34-linux-glibc2.12-x86_64.tar.xz
+  - shared/pkg-config_0.29.2.tar.gz
+  - shared/libtirpc_1.3.2.tar.bz2
+  - mysql/mysql-boost-8.0.34.tar.gz
 
 

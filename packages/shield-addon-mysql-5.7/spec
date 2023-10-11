@@ -1,4 +1,7 @@
 ---
 name: shield-addon-mysql-5.7
 files:
-  - mysql/mysql-5.7.43-linux-glibc2.12-x86_64.tar.gz
+  - shared/pkg-config_0.29.2.tar.gz
+  - shared/libtirpc_1.3.2.tar.bz2
+  - shared/boost_1_59_0.tar.gz
+  - mysql/mysql-5.7.43.tar.gz

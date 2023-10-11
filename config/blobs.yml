@@ -1,15 +1,23 @@
-mysql/mysql-5.7.43-linux-glibc2.12-x86_64.tar.gz:
-  size: 694611572
-  object_id: 0e8d0365-271a-4016-4af2-65231111e1de
-  sha: sha256:8a34efc623d699b91e193e850cc8d0baee455c36fd4c63a2c875899d634e51ec
-mysql/mysql-8.0.34-linux-glibc2.12-x86_64.tar.xz:
-  size: 617598500
-  object_id: 897894e6-3470-421a-4812-9b3d340e45b9
-  sha: sha256:134b4f984c7acfd3b5d03839bfd8524f955738ea8ca35b9ffcdf6c8f3ad4ce6c
+mysql/mysql-5.7.43.tar.gz:
+  size: 56565712
+  object_id: f6acad92-9f47-4202-66aa-58777855b69b
+  sha: sha256:c0a00814b23498c2e15714c08fc4f78e19727df5692a8ce5fb68fc18d7cbd23d
+mysql/mysql-boost-8.0.34.tar.gz:
+  size: 439550780
+  object_id: 89b4d857-5f17-4671-67bf-a845b7c94f24
+  sha: sha256:0b881a19bcef732cd4dbbfc8dfeb84eff61f5dfe0d9788d015d699733e0adf1f
 shared/boost_1_59_0.tar.gz:
   size: 83709983
   object_id: cc0fdf65-9ad1-4d4a-684a-953c07abf794
   sha: 5123209db194d66d69a9cfa5af8ff473d5941d97
+shared/libtirpc_1.3.2.tar.bz2:
+  size: 513151
+  object_id: 8d3585ba-b58e-4b62-481b-45055ed7e5b9
+  sha: sha256:e24eb88b8ce7db3b7ca6eb80115dd1284abc5ec32a8deccfed2224fc2532b9fd
+shared/pkg-config_0.29.2.tar.gz:
+  size: 2016830
+  object_id: d136b275-56c3-4137-6ea0-07c5978eaeb2
+  sha: sha256:6fc69c01688c9458a57eb9a1664c9aba372ccda420a02bf4429fe610e7e7d591
 xtrabackup/autoconf-2.65.tar.gz:
   size: 1738880
   object_id: 63e59b72-0a5b-4b8f-504b-72171f73fcb3

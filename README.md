@@ -9,8 +9,10 @@ utilities for backup and restore: mysql, and mysqldump.
 The following versions are currently available:
 
  - **MySQL** - Oracle MySQL
-   - **5.7.43** via `shield-addon-mysql-5.7` for Bionic
-   - **8.0.34** via `shield-addon-mysql-8.0` for Bionic
+   - **5.7.43** via `shield-addon-mysql-5.7` for Jammy
+   - **8.0.34** via `shield-addon-mysql-8.0` for Jammy
+
+Note: These are built from source and may need large compilation VM's
 
 Need a version we don't (yet) support?  Open a [Github Issue][bug]
 asking that we package it up.  If possible, supply which package
