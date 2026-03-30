@@ -2,14 +2,12 @@ mysql/mysql-5.7.43.tar.gz:
   size: 56565712
   object_id: f6acad92-9f47-4202-66aa-58777855b69b
   sha: sha256:c0a00814b23498c2e15714c08fc4f78e19727df5692a8ce5fb68fc18d7cbd23d
-mysql/mysql-boost-8.0.45.tar.gz:
-  size: 0
-  object_id: pending-upload
-  sha: pending-upload
 mysql/mysql-8.4.8.tar.gz:
-  size: 0
-  object_id: pending-upload
-  sha: pending-upload
+  size: 479002191
+  sha: sha256:be9d96cdf87f276952a2cdd960f106b960a8860e46c115ed39c1b5f2e0387a20
+mysql/mysql-boost-8.0.45.tar.gz:
+  size: 492472802
+  sha: sha256:f679707d05f0c2b61e9b14961302e7f540c23e9e5e2bffd8ad9193599e295cee
 shared/boost_1_59_0.tar.gz:
   size: 83709983
   object_id: cc0fdf65-9ad1-4d4a-684a-953c07abf794
