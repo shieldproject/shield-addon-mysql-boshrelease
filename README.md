@@ -10,7 +10,8 @@ The following versions are currently available:
 
  - **MySQL** - Oracle MySQL
    - **5.7.43** via `shield-addon-mysql-5.7` for Jammy
-   - **8.0.34** via `shield-addon-mysql-8.0` for Jammy
+   - **8.0.45** via `shield-addon-mysql-8.0` for Jammy
+   - **8.4.8**  via `shield-addon-mysql-8.4` for Jammy (LTS)
 
 Note: These are built from source and may need large compilation VM's
 
@@ -41,4 +42,4 @@ instance_groups:
 That's really all there is to it.
 
 [bug]: https://github.com/shieldproject/shield-addon-mysql-boshrelease/issues
-[1]:   https://github.com/starkandwayne/shield-boshrelease
+[1]:   https://github.com/shieldproject/shield-boshrelease

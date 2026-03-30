@@ -1,0 +1,6 @@
+---
+name: shield-addon-mysql-8.4
+files:
+  - shared/pkg-config_0.29.2.tar.gz
+  - shared/libtirpc_1.3.2.tar.bz2
+  - mysql/mysql-8.4.8.tar.gz

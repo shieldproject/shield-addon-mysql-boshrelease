@@ -3,6 +3,6 @@ name: shield-addon-mysql-8.0
 files:
   - shared/pkg-config_0.29.2.tar.gz
   - shared/libtirpc_1.3.2.tar.bz2
-  - mysql/mysql-boost-8.0.34.tar.gz
+  - mysql/mysql-boost-8.0.45.tar.gz
 
 

@@ -1,0 +1,4 @@
+---
+name: shield-addon-mysql-8.4
+packages:
+  - shield-addon-mysql-8.4

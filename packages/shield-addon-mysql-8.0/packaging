@@ -24,8 +24,8 @@ make install "prefix=${BOSH_INSTALL_TARGET}"
 cd ..
 
 # MySQL
-tar -xzf mysql/mysql-boost-8.0.34.tar.gz
-cd mysql-8.0.34
+tar -xzf mysql/mysql-boost-8.0.45.tar.gz
+cd mysql-8.0.45
 cmake -DCMAKE_INSTALL_PREFIX:PATH=${BOSH_INSTALL_TARGET} \
       -DWITH_MAN_PAGES=OFF \
       -DFORCE_INSOURCE_BUILD=1 \
